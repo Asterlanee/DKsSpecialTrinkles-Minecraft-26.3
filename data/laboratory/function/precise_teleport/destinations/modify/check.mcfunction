@@ -1,0 +1,7 @@
+$tellraw @s [{"text":"[","color":"yellow","bold":true},{"source":"entity","entity":"@s","nbt":"SelectedItem.components.\"minecraft:custom_data\".Names[$(Index)]","interpret":true,"bold":true,hover_event:{"action":"show_text","value":[{"source":"entity","entity":"@s","nbt":"SelectedItem.components.\"minecraft:custom_data\".Intros[$(Index)]","interpret":true},{"text":"\n具体位置："},{"source":"entity","entity":"@s","nbt":"SelectedItem.components.\"minecraft:custom_data\".LocationStore[$(Index)]"},{"text":"，维度："},{"source":"entity","entity":"@s","nbt":"SelectedItem.components.\"minecraft:custom_data\".DimensionStore[$(Index)]","interpret":true}]}},{"text":"]","color":"yellow","bold":true},{"text":"  点击进行操作: ","color":"white"},{"text":"[传送] ","color":"green","bold":true,"click_event":{"action":"run_command","command":"/say 1"},"hover_event":{"action":"show_text","value":{"text":"§f点击传送至该位置"}}}]
+
+execute if score @s TeleportIndex matches ..0 run return run tellraw @s [{"text":"共计 ","color":"white"},{"source":"storage","storage":"laboratory:marco","nbt":"Teleport.Length","bold":true},{"text":" 个传送位置","color":"white","click_event":{"action":"run_command","command":"/say 1"},}]
+
+scoreboard players remove @s TeleportIndex 1
+execute store result storage laboratory:marco Teleport.Index int 1 run scoreboard players get @s TeleportIndex
+function laboratory:precise_teleport/destinations/modify/check with storage laboratory:marco Teleport

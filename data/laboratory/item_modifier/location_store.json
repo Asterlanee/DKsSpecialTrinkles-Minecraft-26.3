@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "laboratory:marco"
+      },
+      "ops": [
+        {
+          "op": "replace",
+          "source": "Teleport.Location",
+          "target": "LocationStore"
+        },
+        {
+          "op": "replace",
+          "source": "Teleport.Dimension",
+          "target": "DimensionStore"
+        },
+        {
+          "op": "replace",
+          "source": "Teleport.Intro",
+          "target": "Intros"
+        },
+        {
+          "op": "replace",
+          "source": "Teleport.Name",
+          "target": "Names"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "location_stored": true
+      }
+    },
+    {
+      "type": "minecraft:set_writable_book_pages",
+      "pages": [],
+      "mode": "replace_all"
+    }
+  ]
+}

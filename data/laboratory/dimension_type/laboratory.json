@@ -1,0 +1,39 @@
+{
+  "ambient_light": 1,
+  "attributes": {
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "always",
+      "can_sleep": "always",
+      "destroy_on_use": false
+    },
+    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:gameplay/surface_slime_spawn_chance": 0,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+
+    "minecraft:visual/sun_angle": 180,
+    "minecraft:visual/moon_angle": 180,
+    "minecraft:visual/star_angle": 180,
+    "minecraft:visual/star_brightness": 1,
+    "minecraft:visual/cloud_height": 0,
+    "minecraft:visual/cloud_color": -10592674,
+    "minecraft:visual/ambient_light_color": "#ffffff",
+    "minecraft:visual/fog_color": "#4c4c4c",
+    "minecraft:visual/sky_color": "#000000",
+    "minecraft:visual/sky_light_color": "#000000",
+    "minecraft:visual/sky_light_factor": 1
+  },
+  "coordinate_scale": 0.00001,
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "has_fixed_time": true,
+  "has_skylight": true,
+  "height": 4032,
+  "logical_height": 4032,
+  "min_y": -2032,
+  "infiniburn": "#minecraft:infiniburn_end",
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": 0,
+  "skybox": "overworld"
+}
