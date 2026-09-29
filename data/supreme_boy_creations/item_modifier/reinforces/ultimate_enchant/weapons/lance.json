@@ -1,0 +1,12 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "minecraft:lunge": 3,
+        "minecraft:sharpness": 5,
+        "fire_aspect": 2,
+        "mending": 1,
+        "looting": 3,
+        "unbreaking": 3,
+        "knockback": 2
+    }
+}

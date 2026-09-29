@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:armor_stand",
+    "equipment": {
+      "head": {
+        "items": "minecraft:netherite_block"
+      }
+    },
+    "minecraft:entity_tags": {
+      "all_of": [
+        "supremeboy",
+        "crafter_active",
+        "crafter",
+        "core"
+      ]
+    }
+  }
+}

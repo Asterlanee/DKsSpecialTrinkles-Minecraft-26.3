@@ -1,0 +1,41 @@
+{
+    "type": "sequence",
+    "functions":[
+        {
+            "type": "set_custom_data",
+            "tag": {
+                "superboy_fire_immuned": 1
+            }
+        },
+        {
+            "type": "set_components",
+            "components": {
+                "minecraft:damage_resistant": {
+                    "types": "#minecraft:is_fire"
+                }
+            }
+        },
+        {
+            "type": "set_lore",
+            "lore":[
+                {
+                    "selector":"@p",
+                    "color": "white",
+                    "italic":false
+                },
+                {
+                    "color": "white",
+                    "italic": false, 
+                    "text": "将此物品强化为--"
+                },
+                {
+                    "color": "white",
+                    "italic": false, 
+                    "text": "§e不会被火或熔岩摧毁§r"
+                }
+            ],
+            "entity": "this",
+            "mode": "append"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "multishot": 1,
+        "mending": 1,
+        "piercing": 4,
+        "flame": 1,
+        "unbreaking": 3,
+        "power": 5,
+        "infinity": 1,
+        "punch": 2
+    }
+}

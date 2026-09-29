@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "LNL",
+    "#L#"
+  ],
+  "category": "misc",
+  "key": {
+    "#": "minecraft:redstone_block",
+    "L": "minecraft:iron_block",
+    "N": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "至尊男孩合成器核心",
+        "color": "red",
+        "bold": true
+      },
+      "minecraft:custom_data": {
+        "special_trinkles": "supreme_boy",
+        "supreme_boy_category": "necessity",
+        "itemID": "crafter_core"
+      },
+      "minecraft:lore": [
+        "§8十分重要的部件",
+        "§6用于组成“至尊男孩合成器”"
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic",
+      "minecraft:max_stack_size": 64,
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Health": 1,
+        "CustomName": "§c§l至尊男孩合成器核心",
+        "CustomNameVisible": true,
+        "Glowing": true,
+        "equipment": {
+          "head": {
+            "id": "minecraft:netherite_block"
+          }
+        },
+        "NoBasePlate": true,
+        "DisabledSlots": 16,
+        "Invisible": true,
+        "ShowArms": true,
+        "Invulnerable": true,
+        "NoGravity": true,
+        "Silent": true,
+        "Small": true,
+        "Tags": [
+          "supremeboy",
+          "crafter",
+          "core"
+        ]
+      }
+    }
+  }
+}

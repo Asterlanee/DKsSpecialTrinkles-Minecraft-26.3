@@ -1,0 +1,9 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "efficiency": 5,
+        "fortune": 3,
+        "unbreaking": 3,
+        "mending": 1
+    }
+}

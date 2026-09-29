@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "GNG",
+    "TTT"
+  ],
+  "category": "misc",
+  "key": {
+    "M": "minecraft:blaze_powder",
+    "N": "minecraft:armor_stand",
+    "T": "minecraft:tnt",
+    "G": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "核心移除器",
+        "color": "dark_red",
+        "bold": true
+      },
+      "minecraft:custom_data": {
+        "special_trinkles": "supreme_boy",
+        "supreme_boy_category": "necessity",
+        "itemID": "core_destroyer"
+      },
+      "minecraft:lore": [
+        "§6用于移除核心，将其变为掉落物物形态",
+        "§c自身不消耗"
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "uncommon",
+      "minecraft:max_stack_size": 64,
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "Marker": true,
+        "Invisible": true,
+        "Invulnerable": true,
+        "NoGravity": true,
+        "Silent": true,
+        "Tags": [
+          "supremeboy",
+          "core",
+          "destroyer"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "efficiency": 5,
+        "mending": 1,
+        "silk_touch": 1,
+        "unbreaking": 3
+    }
+}

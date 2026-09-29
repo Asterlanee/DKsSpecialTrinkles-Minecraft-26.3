@@ -1,0 +1,17 @@
+{
+    "type": "sequence",
+    "functions":[
+        {
+            "type": "set_custom_data",
+            "tag": {
+                "superboy_reset_repair_cost": 1
+            }
+        },
+        {
+            "type": "set_components",
+            "components": {
+                "minecraft:repair_cost": 0
+            }
+        }
+    ]
+}

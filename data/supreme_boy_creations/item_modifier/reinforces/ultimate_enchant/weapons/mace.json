@@ -1,0 +1,13 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "smite": 5,
+        "bane_of_arthropods": 5,
+        "fire_aspect": 2,
+        "mending": 1,
+        "density": 5,
+        "wind_burst": 3,
+        "unbreaking": 3,
+        "breach": 4
+    }
+}

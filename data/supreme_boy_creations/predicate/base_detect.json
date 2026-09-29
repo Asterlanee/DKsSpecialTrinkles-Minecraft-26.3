@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_type": "minecraft:armor_stand",
+        "equipment": {
+          "head": {
+            "items": "minecraft:netherite_block"
+          }
+        },
+        "minecraft:entity_tags": {
+          "all_of": [
+            "supremeboy",
+            "crafter",
+            "core"
+          ]
+        },
+        "minecraft:location": {
+          "block": {
+            "blocks": "minecraft:dropper",
+            "predicates": {
+              "minecraft:custom_data": {
+                "special_trinkles": "supreme_boy",
+                "supreme_boy_category": "necessity",
+                "itemID": "crafter_base"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "sequence",
+    "functions":[
+        {
+            "type": "set_components",
+            "components": {
+                "!minecraft:enchantments":{}
+            }
+        },
+        {
+            "type": "set_components",
+            "components": {
+                "minecraft:enchantments":{}
+            }
+        },
+        {
+            "type": "set_components",
+            "components": {
+                "minecraft:repair_cost": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "luck_of_the_sea": 3,
+        "mending": 1,
+        "lure": 3,
+        "unbreaking": 3
+    }
+}

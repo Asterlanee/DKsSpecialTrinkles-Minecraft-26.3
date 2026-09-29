@@ -1,0 +1,27 @@
+{
+    "type": "sequence",
+    "functions":[
+        {
+            "type": "set_custom_data",
+            "tag": {
+                "superboy_random_enchanted": 1
+            }
+        },
+        {
+            "type": "set_components",
+            "components": {
+                "!minecraft:enchantments":{}
+            }
+        },
+        {
+            "type": "set_components",
+            "components": {
+                "minecraft:enchantments":{}
+            }
+        },
+        {
+            "type": "enchant_with_levels",
+            "levels": 60
+        }
+    ]
+}

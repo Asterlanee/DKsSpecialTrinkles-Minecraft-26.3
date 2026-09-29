@@ -1,0 +1,9 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "riptide": 3,
+        "mending": 1,
+        "unbreaking": 3,
+        "impaling": 5
+    }
+}

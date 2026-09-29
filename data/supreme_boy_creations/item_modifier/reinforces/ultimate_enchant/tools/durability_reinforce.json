@@ -1,0 +1,7 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "mending": 1,
+        "unbreaking": 3
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "type": "toggle_tooltips",
+    "toggles":{
+        "stored_enchantments": true
+
+    }
+}

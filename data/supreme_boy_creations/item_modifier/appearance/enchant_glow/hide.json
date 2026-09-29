@@ -1,0 +1,6 @@
+{
+    "type": "toggle_tooltips",
+    "toggles":{
+        "minecraft:enchantment_glint_override": false
+    }
+}

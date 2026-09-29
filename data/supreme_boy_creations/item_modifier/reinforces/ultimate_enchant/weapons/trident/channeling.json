@@ -1,0 +1,11 @@
+{
+    "type": "set_enchantments",
+    "enchantments": {
+        "mending": 1,
+        "sharpness": 5,
+        "looting": 3,
+        "unbreaking": 3,
+        "impaling": 5,
+        "loyalty": 3
+    }
+}

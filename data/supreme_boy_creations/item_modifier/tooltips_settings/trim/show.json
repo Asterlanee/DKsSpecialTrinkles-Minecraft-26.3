@@ -1,0 +1,6 @@
+{
+    "type": "toggle_tooltips",
+    "toggles":{
+        "trim": true
+    }
+}

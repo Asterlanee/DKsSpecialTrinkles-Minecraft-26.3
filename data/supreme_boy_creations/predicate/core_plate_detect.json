@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "minecraft:entity_type": "minecraft:block_display",
+        "minecraft:entity_tags": {
+            "all_of": [
+                "supremeboy",
+                "core",
+                "decoration_plate"
+            ]
+        }
+    }
+}
