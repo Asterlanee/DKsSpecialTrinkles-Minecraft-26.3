@@ -1,0 +1,30 @@
+{
+  "category": "misc",
+  "group": "dk_potion_mixture",
+  "type": "minecraft:crafting_transmute",
+  "input": "minecraft:potion",
+  "material": "minecraft:experience_bottle",
+  "material_count": 8,
+  "show_notification": true,
+  "add_material_count_to_result": false,
+  "result": {
+    "id": "minecraft:experience_bottle",
+    "count": 3,
+    "components": {
+      "minecraft:item_name": {
+        "text": "药水混合物-A型流体",
+        "italic": false
+      },
+      "minecraft:custom_name": {
+        "text": "药水混合物-A型流体",
+        "italic": false
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:custom_data": {
+        "special_trinkles": "potion_arts",
+        "potion_category": "potion_mixture",
+        "mixture_type": "liquid_A"
+      }
+    }
+  }
+}

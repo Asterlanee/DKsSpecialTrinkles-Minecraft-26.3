@@ -1,0 +1,14 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "minecraft:time_check",
+            "clock": "minecraft:overworld",
+            "value": {
+              "min": 13801,
+              "max": 22200
+            },
+            "period": 24000
+        }
+    ]
+}

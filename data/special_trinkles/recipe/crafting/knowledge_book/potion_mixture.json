@@ -1,0 +1,38 @@
+{
+  "category": "equipment",
+  "group": "dk_knowledge_book",
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "pattern": [
+    "AZA",
+    "ZXZ",
+    "AZA"
+  ],
+  "key": {
+    "A": "minecraft:glass_bottle",
+    "Z": "minecraft:paper",
+    "X": "minecraft:enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "components": {
+      "minecraft:item_name": {
+        "text": "药水混合物知识书",
+        "italic": false
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:custom_data": {
+        "special_trinkles": "potion_arts",
+        "potion_category": "guidebook",
+        "bookID": "potion_mixture"
+      },
+      "minecraft:recipes": [
+        "special_trinkles:crafting/potion_mixture/solid_a",
+        "special_trinkles:crafting/potion_mixture/solid_b",
+        "special_trinkles:crafting/potion_mixture/liquid_a",
+        "special_trinkles:crafting/potion_mixture/liquid_b",
+        "special_trinkles:crafting/potion_mixture/gas_b"
+      ]
+    }
+  }
+}

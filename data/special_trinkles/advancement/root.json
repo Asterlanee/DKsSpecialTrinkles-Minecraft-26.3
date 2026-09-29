@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "欢迎使用“特色道具”数据包！",
+    "description": "",
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [925483458,1078825195,-1334706062,-762657254],
+          "name": "Diamondking303",
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc4OTcyOTg3NjY5NiwKICAicHJvZmlsZUlkIiA6ICIzNzAxYjljMjA2NDA0MGViYjA3MmQyNzE2OTZkYmExNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaWFtb25ka2luZzMwMyIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84N2NhNDhmYmVmM2QwYjNhMTQ4YzUzZTQ2ZDFlNGE0MmRmZTJlZDNiM2ExZWEzMGU4YTdiMzhjYzdhMTRlZWZlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYjQwYTkyZTMyYjU3ZmQ3MzJhMDBmYzMyNWU3YWZiMDBhN2NhNzQ5MzZhZDUwZDhlODYwMTUyZTQ4MmNmYmRlIgogICAgfQogIH0KfQ=="
+            }
+          ]
+        }
+      }
+    },
+    "background": "minecraft:block/bookshelf",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

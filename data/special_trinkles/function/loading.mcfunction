@@ -1,0 +1,1 @@
+tellraw @a [{text:"<SpecialTrinkles> 数据包已装载，点击“"},{text:"禁用数据包",click_event:{action:"run_command",command:"/function special_trinkles:uninstall"},underlined:true,bold:true,color:"#e00000"},{text:"”可立刻关闭"}]

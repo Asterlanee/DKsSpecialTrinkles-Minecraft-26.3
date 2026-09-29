@@ -1,0 +1,30 @@
+{
+  "category": "misc",
+  "group": "dk_potion_mixture",
+  "type": "minecraft:crafting_transmute",
+  "input": "minecraft:potion",
+  "material": "minecraft:resin_clump",
+  "material_count": 8,
+  "show_notification": true,
+  "add_material_count_to_result": false,
+  "result": {
+    "id": "minecraft:resin_clump",
+    "count": 3,
+    "components": {
+      "minecraft:item_name": {
+        "text": "药水混合物-A型固体",
+        "italic": false
+      },
+      "minecraft:custom_name": {
+        "text": "药水混合物-A型固体",
+        "italic": false
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:custom_data": {
+        "special_trinkles": "potion_arts",
+        "potion_category": "potion_mixture",
+        "mixture_type": "solid_A"
+      }
+    }
+  }
+}

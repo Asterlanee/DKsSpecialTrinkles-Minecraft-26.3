@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion",
+    "potion_contents": {
+      "effects": {
+        "contains": [
+          {
+            "minecraft:instant_health": {
+              "amplifier": 2,
+              "duration": 1
+            }
+          },
+          {
+            "minecraft:saturation": {
+              "amplifier": 2,
+              "duration": 1
+            }
+          }
+        ],
+        "size": 2
+      }
+    }
+  },
+  "output": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "万能药原料-2阶",
+        "color": "#00d2cb",
+        "italic": false
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:potion_contents": {
+        "custom_color": 2159100,
+        "custom_effects": [
+          {
+            "id": "minecraft:instant_health",
+            "amplifier": 2,
+            "duration": 1,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "id": "minecraft:saturation",
+            "amplifier": 4,
+            "duration": 1,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 1,
+            "duration": 1
+          },
+          {
+            "id": "minecraft:absorption",
+            "amplifier": 3,
+            "duration": 1
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "duration": 1
+          },
+          {
+            "id": "minecraft:night_vision",
+            "amplifier": 0,
+            "duration": 1
+          }
+        ]
+      }
+    }
+  },
+  "reagent": {
+    "item": "minecraft:enchanted_golden_apple"
+  }
+}

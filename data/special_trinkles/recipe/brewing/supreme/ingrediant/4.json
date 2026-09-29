@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion",
+    "potion_contents": {
+      "effects": {
+        "contains": [
+          {
+            "minecraft:instant_health": {
+              "amplifier": 4,
+              "duration": 1
+            }
+          },
+          {
+            "minecraft:saturation": {
+              "amplifier": 9,
+              "duration": 1
+            }
+          },
+          {
+            "minecraft:resistance": {
+              "amplifier": 1,
+              "duration": 6000
+            }
+          },
+          {
+            "minecraft:absorption": {
+              "amplifier": 4,
+              "duration": 6000
+            }
+          },
+          {
+            "minecraft:fire_resistance": {
+              "amplifier": 0,
+              "duration": 6000
+            }
+          },
+          {
+            "minecraft:night_vision": {
+              "amplifier": 0,
+              "duration": 6000
+            }
+          },
+          {
+            "minecraft:conduit_power": {
+              "amplifier": 0,
+              "duration": 6000
+            }
+          },
+          {
+            "minecraft:dolphins_grace": {
+              "amplifier": 4,
+              "duration": 6000
+            }
+          }
+        ],
+        "size": 8
+      }
+    }
+  },
+  "output": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "万能药-3阶",
+        "color": "#00d2cb",
+        "italic": false
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:potion_contents": {
+        "custom_color": 2159100,
+        "custom_effects": [
+          {
+            "id": "minecraft:instant_health",
+            "amplifier": 4,
+            "duration": 100,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "id": "minecraft:saturation",
+            "amplifier": 9,
+            "duration": 100,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "id": "minecraft:resistance",
+            "amplifier": 1,
+            "duration": 12000
+          },
+          {
+            "id": "minecraft:absorption",
+            "amplifier": 4,
+            "duration": 12000
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "duration": 12000
+          },
+          {
+            "id": "minecraft:night_vision",
+            "amplifier": 0,
+            "duration": 12000
+          },
+          {
+            "id": "minecraft:conduit_power",
+            "amplifier": 0,
+            "duration": 12000
+          },
+          {
+            "id": "minecraft:dolphins_grace",
+            "amplifier": 4,
+            "duration": 12000
+          }
+        ]
+      }
+    }
+  },
+  "reagent": {
+    "item": "minecraft:redstone_block"
+  }
+}
