@@ -1,0 +1,145 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "购买商品",
+    "color": "dark_red",
+    "bold": true
+  },
+  "columns": 1,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:bundle",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "在此界面中可以使用星源石购买商品",
+            "bold": true
+          }
+        ],
+        "width": 170
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "苦力怕头颅",
+        "color": "#11b837",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 16"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：2¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "末影龙头颅",
+        "color": "#55149c",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 17"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：2¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "猪灵头颅",
+        "color": "#e39549",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 18"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：3¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "玩家头颅",
+        "color": "#0791c2",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 19"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：3¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "骷髅头颅",
+        "color": "#c2b5bc",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 20"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：2¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "凋灵骷髅头颅",
+        "color": "#2e2b2c",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 21"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：2¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "僵尸头颅",
+        "color": "#09611d",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 22"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：2¤/1个"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "starish_originium_shop:buy/main"
+    }
+  },
+  "after_action": "none"
+}

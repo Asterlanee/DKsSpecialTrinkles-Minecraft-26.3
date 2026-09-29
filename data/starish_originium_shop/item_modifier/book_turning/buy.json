@@ -1,0 +1,1060 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_data": {
+          "special_trinkles": "starish_originium_shop",
+          "starish_originium_category": "guidebook",
+          "itemID": "starish_originium_shop_interface",
+          "interfaceID": "Purchase",
+          "Style": 6
+        },
+        "minecraft:lore": [
+          {
+            "text": "§8-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-"
+          },
+          {
+            "text": "§f专门进行星源石线上交易"
+          },
+          {
+            "text": "§f的平台"
+          },
+          {
+            "text": "§f转账，购买，充值，提现，"
+          },
+          {
+            "text": "§f多种功能等你发现"
+          },
+          {
+            "text": "§f祝你有个美好的一天(●>◡<●) "
+          },
+          {
+            "text": "§8-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-"
+          },
+          {
+            "text": "§e当前页面： §4消费区"
+          },
+          {
+            "text": "§eVer 1.0"
+          }
+        ],
+        "minecraft:written_book_content": {
+          "author": "§e§l晴空无痕",
+          "title": "§9星源石商店线上购物终端",
+          "generation": 0,
+          "pages": [
+            [
+              "",
+              {
+                "text": "§8§l=======§c§l星源石商城§8§l=======",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "一定要保证有足够的星源石哟！"
+                  }
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "§8§l稀有物类："
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§5§l紫水晶芽 ",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "包含：\n"
+                    },
+                    {
+                      "translate": "block.minecraft.small_amethyst_bud",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "售价：1¤/64个"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.medium_amethyst_bud",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "售价：1¤/64个"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.large_amethyst_bud",
+                      "color": "dark_purple"
+                    },
+                    {
+                      "text": "售价：1¤/64个"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.amethyst_cluster",
+                      "color": "dark_purple"
+                    },
+                    {
+                      "text": "售价：1¤/64个"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.budding_amethyst",
+                      "color": "dark_purple"
+                    },
+                    {
+                      "text": "售价：1¤/64个"
+                    }
+                  ]
+                }
+              },
+              {
+                "text": "§d§l小",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.small_amethyst_bud",
+                      "color": "light_purple"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 5"
+                }
+              },
+              {
+                "text": "§5§l中",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.medium_amethyst_bud",
+                      "color": "light_purple"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 4"
+                }
+              },
+              {
+                "text": "§c§l大",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.large_amethyst_bud",
+                      "color": "dark_purple"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 3"
+                }
+              },
+              {
+                "text": "§4§l簇",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.amethyst_cluster",
+                      "color": "dark_purple"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 1"
+                }
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§5§l母岩",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.budding_amethyst",
+                      "color": "dark_purple"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 2"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§5§l紫颂植株  ",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "售价：1¤/64个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 6"
+                }
+              },
+              {
+                "text": "§l|"
+              },
+              {
+                "text": "§8§l刷怪笼",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "售价：6¤/1个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 25"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§c§l火把花§6§l种子",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "售价：1¤/4个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 26"
+                }
+              },
+              {
+                "text": "§l|"
+              },
+              {
+                "text": "§5§l瓶§d§l子§3§l草§6§l荚果",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "售价：1¤/4个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 23"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§4§l嗅§2§l探§4§l者§2§l的§4§l蛋",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "售价：4¤/1个§7(孵化等级：2级)"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 24"
+                }
+              },
+              {
+                "text": "§l|"
+              },
+              {
+                "text": "幽匿尖啸体",
+                "bold": true,
+                "color": "#144D43",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "售价：5¤/1个§7(拥有召唤能力，§4极度危险§7)"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 7"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§2§l生物§6§l模型",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "包含：\n"
+                    },
+                    {
+                      "translate": "block.minecraft.skeleton_skull",
+                      "color": "#C2B5BC"
+                    },
+                    {
+                      "text": "售价：2¤/1个 §7(序号§41§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.wither_skeleton_skull",
+                      "color": "#2E2B2C"
+                    },
+                    {
+                      "text": "售价：2¤/1个 §7(序号§62§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.zombie_head",
+                      "color": "#09611D"
+                    },
+                    {
+                      "text": "售价：2¤/1个 §7(序号§e3§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.creeper_head",
+                      "color": "#11B837"
+                    },
+                    {
+                      "text": "售价：2¤/1个 §7(序号§24§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.player_head",
+                      "color": "#0791C2"
+                    },
+                    {
+                      "text": "售价：3¤/1个 §7(序号§35§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.piglin_head",
+                      "color": "#E39549"
+                    },
+                    {
+                      "text": "售价：4¤/1个 §7(序号§16§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "block.minecraft.dragon_head",
+                      "color": "#55149C"
+                    },
+                    {
+                      "text": "售价：2¤/1个 §7(序号§57§7)"
+                    }
+                  ]
+                }
+              },
+              {
+                "text": "  "
+              },
+              {
+                "text": "§4§l|1|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.skeleton_skull",
+                      "color": "#C2B5BC"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 20"
+                }
+              },
+              {
+                "text": "§6§l|2|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.wither_skeleton_skull",
+                      "color": "#2E2B2C"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 21"
+                }
+              },
+              {
+                "text": "§l|3|",
+                "color": "#DBC400",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.zombie_head",
+                      "color": "#09611D"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 22"
+                }
+              },
+              {
+                "text": "§2§l|4|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.creeper_head",
+                      "color": "#11B837"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 16"
+                }
+              },
+              {
+                "text": "§3§l|5|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.player_head",
+                      "color": "#0791C2"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 19"
+                }
+              },
+              {
+                "text": "§1§l|6|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.piglin_head",
+                      "color": "#E39549"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 18"
+                }
+              },
+              {
+                "text": "§5§l|7|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "block.minecraft.dragon_head",
+                      "color": "#55149C"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 17"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§8§l山羊号角",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "包含：\n"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 沉思",
+                      "color": "#9296FF"
+                    },
+                    {
+                      "text": "售价：1¤/1个 §7(序号§41§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 歌颂",
+                      "color": "#FF790D"
+                    },
+                    {
+                      "text": "售价：1¤/1个 §7(序号§62§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 寻觅",
+                      "color": "#AFFF58"
+                    },
+                    {
+                      "text": "售价：1¤/1个 §7(序号§e3§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 感受",
+                      "color": "#FFACA1"
+                    },
+                    {
+                      "text": "售价：1¤/1个 §7(序号§24§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 仰慕",
+                      "color": "#ED2192"
+                    },
+                    {
+                      "text": "售价：1¤/1个 §7(序号§35§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 呼唤",
+                      "color": "#06E673"
+                    },
+                    {
+                      "text": "售价：1¤/1个 §7(序号§96§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 憧憬",
+                      "color": "#4FB4FF"
+                    },
+                    {
+                      "text": "售价：1¤/1个 §7(序号§17§7)"
+                    },
+                    {
+                      "text": "\n"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 想象",
+                      "color": "#693B8F"
+                    },
+                    {
+                      "text": "售价：1¤/1个 §7(序号§58§7)"
+                    }
+                  ]
+                }
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§4§l|1|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 沉思",
+                      "color": "#9296FF"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 12"
+                }
+              },
+              {
+                "text": "§6§l|2|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 歌颂",
+                      "color": "#FF790D"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 14"
+                }
+              },
+              {
+                "text": "§l|3|",
+                "color": "#DBC400",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 寻觅",
+                      "color": "#AFFF58"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 13"
+                }
+              },
+              {
+                "text": "§2§l|4|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 感受",
+                      "color": "#FFACA1"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 11"
+                }
+              },
+              {
+                "text": "§3§l|5|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 仰慕",
+                      "color": "#ED2192"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 8"
+                }
+              },
+              {
+                "text": "§9§l|6|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 呼唤",
+                      "color": "#06E673"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 9"
+                }
+              },
+              {
+                "text": "§1§l|7|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 憧憬",
+                      "color": "#4FB4FF"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 15"
+                }
+              },
+              {
+                "text": "§5§l|8|",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": [
+                    {
+                      "text": "点击购买"
+                    },
+                    {
+                      "translate": "item.minecraft.goat_horn",
+                      "color": "#6B6B6B"
+                    },
+                    {
+                      "text": " 想象",
+                      "color": "#693B8F"
+                    }
+                  ]
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 10"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "§l|"
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "§l|"
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "§l|"
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "§l|"
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "§l|"
+              },
+              {
+                "text": "§7§l商品未上架",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "?¤/?个"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 0"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "     §8§l|§2§l返回终端主页面§8§l|",
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 2001"
+                }
+              }
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

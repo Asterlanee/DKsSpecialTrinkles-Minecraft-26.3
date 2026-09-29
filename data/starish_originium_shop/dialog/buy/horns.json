@@ -1,0 +1,160 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "购买商品",
+    "color": "dark_red",
+    "bold": true
+  },
+  "columns": 1,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:bundle",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "在此界面中可以使用星源石购买商品",
+            "bold": true
+          }
+        ],
+        "width": 170
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "仰慕号角",
+        "color": "#ed2192",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 8"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "呼唤号角",
+        "color": "#06e673",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 9"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "想象号角",
+        "color": "#693b8f",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 10"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "感受号角",
+        "color": "#ffaca1",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 11"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "沉思号角",
+        "color": "#9296ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 12"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "寻觅号角",
+        "color": "#afff58",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 13"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "歌颂号角",
+        "color": "#ff790d",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 14"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "憧憬号角",
+        "color": "#4fb4ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 15"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "starish_originium_shop:buy/main"
+    }
+  },
+  "after_action": "none"
+}

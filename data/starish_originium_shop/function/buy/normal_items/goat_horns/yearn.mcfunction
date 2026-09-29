@@ -1,0 +1,11 @@
+#记分板清零
+scoreboard players set @s StarOriShopTrigger 0
+
+tellraw @s[scores={StarOriShop_Current=..0}] {"color":"white","text":"很抱歉，您的余额§4不足§f，本次交易取消(｡í _ ì｡)......"}
+playsound minecraft:entity.goat.screaming.ambient ambient @s[scores={StarOriShop_Current=..0}]
+
+tellraw @s[scores={StarOriShop_Current=1..}] [{"color": "#FFFFFF","text":"已成功购买"},{"translate": "item.minecraft.goat_horn","color": "#6B6B6B"},{"text": " 憧憬","color": "#4FB4FF"},{"color": "#FFFFFF","text": "§cx1§r,谢谢惠顾(=^▽^=)！"}]
+give @s[scores={StarOriShop_Current=1..}] minecraft:goat_horn[minecraft:instrument={sound_event: "minecraft:item.goat_horn.sound.6",use_duration: 50,range: 120,description:""},minecraft:lore=[{"text": "憧憬","color": "#4FB4FF","italic":false}]]
+playsound minecraft:item.goat_horn.sound.6 ambient @s[scores={StarOriShop_Current=1..}]
+scoreboard players remove @s[scores={StarOriShop_Current=1..}] StarOriShop_Current 1
+function starish_originium_shop:settings/savings_warning

@@ -1,0 +1,321 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_data": {
+          "special_trinkles": "starish_originium_shop",
+          "starish_originium_category": "guidebook",
+          "itemID": "starish_originium_shop_interface",
+          "interfaceID": "Sell",
+          "Style": 5
+        },
+        "minecraft:lore": [
+          {
+            "text": "§8-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-"
+          },
+          {
+            "text": "§f专门进行星源石线上交易"
+          },
+          {
+            "text": "§f的平台"
+          },
+          {
+            "text": "§f转账，购买，充值，提现，"
+          },
+          {
+            "text": "§f多种功能等你发现"
+          },
+          {
+            "text": "§f祝你有个美好的一天(●>◡<●) "
+          },
+          {
+            "text": "§8-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-"
+          },
+          {
+            "text": "§e当前页面： §2出售区"
+          },
+          {
+            "text": "§eVer 1.0"
+          }
+        ],
+        "minecraft:written_book_content": {
+          "author": "§e§l晴空无痕",
+          "title": "§9星源石商店线上购物终端",
+          "generation": 0,
+          "pages": [
+            [
+              "",
+              {
+                "text": "§8§l=======§2§l星源石收购§8§l=======",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "请放置在讲台上，并用主手手持售卖物品再进行操作。"
+                  }
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "  |龙蛋|",
+                "color": "#5F218C",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：1个/12¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -3"
+                }
+              },
+              {
+                "text": " |下界之星|",
+                "color": "#A8A188",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：1个/2¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -10"
+                }
+              },
+              {
+                "text": " |鞘翅| ",
+                "color": "#7A7A7A",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：1个/2¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -4"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "  |金块|",
+                "color": "#FABC00",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：16个/1¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -7"
+                }
+              },
+              {
+                "text": " |绿宝石块|",
+                "color": "#00CF39",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：1个/2¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -6"
+                }
+              },
+              {
+                "text": " |钻石| ",
+                "color": "#00F2FF",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：12个/1¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -2"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " |红石块|",
+                "color": "#DB0000",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：48个/1¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -13"
+                }
+              },
+              {
+                "text": " |煤炭块|",
+                "color": "#1F1F1F",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：32个/1¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -1"
+                }
+              },
+              {
+                "text": " |石英块|",
+                "color": "#DBDBDB",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：96个/1¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -12"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "|稻草块|",
+                "color": "#D19226",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：28个/1¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -8"
+                }
+              },
+              {
+                "text": " |青金石块|",
+                "color": "#0006A1",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：24个/1¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -9"
+                }
+              },
+              {
+                "text": " |潜影壳|",
+                "color": "#7302AB",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：24个/1¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -14"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": " |下界合金锭|",
+                "color": "#3D2C25",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：1个/12¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -11"
+                }
+              },
+              {
+                "text": " |附魔金苹果|",
+                "color": "#C900FF",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "卖价：1个/4¤"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set -5"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "     §8§l|§2§l返回终端主页面§8§l|",
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 2001"
+                }
+              }
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

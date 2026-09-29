@@ -1,0 +1,397 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "购买商品",
+    "color": "dark_red",
+    "bold": true
+  },
+  "columns": 3,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:bundle",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "在此界面中可以使用星源石购买商品",
+            "bold": true
+          }
+        ],
+        "width": 170
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "紫水晶类",
+        "color": "#ffffff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starish_originium_shop:buy/amethysts"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "包含：\n"
+        },
+        {
+          "translate": "block.minecraft.small_amethyst_bud",
+          "color": "light_purple"
+        },
+        {
+          "text": "售价：1¤/64个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.medium_amethyst_bud",
+          "color": "light_purple"
+        },
+        {
+          "text": "售价：1¤/64个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.large_amethyst_bud",
+          "color": "dark_purple"
+        },
+        {
+          "text": "售价：1¤/64个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.amethyst_cluster",
+          "color": "dark_purple"
+        },
+        {
+          "text": "售价：1¤/64个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.budding_amethyst",
+          "color": "dark_purple"
+        },
+        {
+          "text": "售价：1¤/64个"
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "山羊角类",
+        "color": "#ffffff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starish_originium_shop:buy/horns"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "包含：\n"
+        },
+        {
+          "translate": "item.minecraft.goat_horn",
+          "color": "#6B6B6B"
+        },
+        {
+          "text": " 仰慕",
+          "color": "#ED2192"
+        },
+        {
+          "text": "：1¤/1个\n"
+        },
+        {
+          "translate": "item.minecraft.goat_horn",
+          "color": "#6B6B6B"
+        },
+        {
+          "text": " 呼唤",
+          "color": "#06E673"
+        },
+        {
+          "text": "：1¤/1个\n"
+        },
+        {
+          "translate": "item.minecraft.goat_horn",
+          "color": "#6B6B6B"
+        },
+        {
+          "text": " 想象",
+          "color": "#693B8F"
+        },
+        {
+          "text": "：1¤/1个\n"
+        },
+        {
+          "translate": "item.minecraft.goat_horn",
+          "color": "#6B6B6B"
+        },
+        {
+          "text": " 感受",
+          "color": "#FFACA1"
+        },
+        {
+          "text": "：1¤/1个\n"
+        },
+        {
+          "translate": "item.minecraft.goat_horn",
+          "color": "#6B6B6B"
+        },
+        {
+          "text": " 沉思",
+          "color": "#9296FF"
+        },
+        {
+          "text": "：1¤/1个\n"
+        },
+        {
+          "translate": "item.minecraft.goat_horn",
+          "color": "#6B6B6B"
+        },
+        {
+          "text": " 寻觅",
+          "color": "#AFFF58"
+        },
+        {
+          "text": "：1¤/1个\n"
+        },
+        {
+          "translate": "item.minecraft.goat_horn",
+          "color": "#6B6B6B"
+        },
+        {
+          "text": " 歌颂",
+          "color": "#FF790D"
+        },
+        {
+          "text": "：1¤/1个\n"
+        },
+        {
+          "translate": "item.minecraft.goat_horn",
+          "color": "#6B6B6B"
+        },
+        {
+          "text": " 憧憬",
+          "color": "#4FB4FF"
+        },
+        {
+          "text": "：1¤/1个\n"
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "头颅类",
+        "color": "#ffffff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starish_originium_shop:buy/heads"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "包含：\n"
+        },
+        {
+          "translate": "block.minecraft.creeper_head",
+          "color": "#11b837"
+        },
+        {
+          "text": "售价：2¤/1个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.dragon_head",
+          "color": "#55149c"
+        },
+        {
+          "text": "售价：2¤/1个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.piglin_head",
+          "color": "#e39549"
+        },
+        {
+          "text": "售价：4¤/1个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.player_head",
+          "color": "#0791c2"
+        },
+        {
+          "text": "售价：3¤/1个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.skeleton_skull",
+          "color": "#c2b5bc"
+        },
+        {
+          "text": "售价：2¤/1个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.wither_skeleton_skull",
+          "color": "#2e2b2c"
+        },
+        {
+          "text": "售价：2¤/1个"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.zombie_head",
+          "color": "#09611d"
+        },
+        {
+          "text": "售价：2¤/1个"
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "紫颂植株",
+        "color": "#b300ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 6"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "售价：1¤/64个"
+      }
+    },
+    {
+      "label": {
+        "text": "幽匿尖啸体",
+        "color": "#144D43",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 7"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "售价：4¤/1个（拥有召唤能力，极度危险）"
+      }
+    },
+    {
+      "label": {
+        "text": "瓶子草荚果",
+        "color": "#a000a0",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 23"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "售价：1¤/4个"
+      }
+    },
+    {
+      "label": {
+        "text": "嗅探者的蛋",
+        "color": "#a000a0",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 24"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "售价：4¤/1个（孵化等级：2级）"
+      }
+    },
+    {
+      "label": {
+        "text": "刷怪笼",
+        "color": "dark_gray",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 25"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "售价：6¤/1个"
+      }
+    },
+    {
+      "label": {
+        "text": "火把花种子",
+        "color": "#ff5555",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 26"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "售价：1¤/4个"
+      }
+    },
+    {
+      "label": {
+        "text": "§6§l星§e§l源§6§l石",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 999"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "售价：1¤/1个"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "starish_originium_shop:intro"
+    }
+  },
+  "after_action": "none"
+}

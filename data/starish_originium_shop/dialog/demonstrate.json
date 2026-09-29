@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "合成过程介绍",
+    "color": "#00d5ff",
+    "bold": true
+  },
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:painting",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "下面是基本操作一览，点击按钮即可进入对应操作方法介绍界面",
+            "bold": true
+          }
+        ],
+        "width": 200
+      }
+    }
+  ],
+  "after_action": "close",
+  "yes": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "supreme_boy_creations:main"
+    }
+  },
+  "no": {
+    "label": {
+      "text": "退出界面",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:change_page",
+      "page": 1
+    }
+  }
+}

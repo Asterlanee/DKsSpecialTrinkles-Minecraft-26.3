@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "商城功能一览",
+    "color": "#ffee00",
+    "bold": true
+  },
+  "columns": 1,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:writable_book",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "下面是本模组的核心功能一览，点击按钮即可进入对应功能组界面",
+            "bold": true
+          },
+          {
+            "text": "\n各部分功能各不相同，请仔细阅读每个功能组的说明",
+            "bold": true
+          }
+        ],
+        "width": 300
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "购买商品",
+        "color": "dark_red",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starish_originium_shop:buy/main"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "在此界面中可以使用星源石购买商品",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "卖出商品",
+        "color": "dark_green",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starish_originium_shop:sell/main"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "在此界面中可以将物品卖出，获得对应的星源石",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "商城服务",
+        "color": "blue",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "starish_originium_shop:service"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "在此界面中可以使用星源石购买商城服务",
+        "bold": true
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:change_page",
+      "page": 1
+    }
+  },
+  "after_action": "none"
+}

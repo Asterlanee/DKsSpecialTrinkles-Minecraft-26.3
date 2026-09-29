@@ -1,0 +1,200 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "核心高级操作",
+    "color": "#ff8800",
+    "bold": true
+  },
+  "columns": 2,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:writable_book",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "需要核心本身参与的复杂操作，需要使用其他资源作为代价",
+            "bold": true
+          }
+        ],
+        "width": 170
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "交换附魔",
+        "color": "#E400FC",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 11"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "无需基座，请保证自身拥有超过600点经验值"
+        },
+        {
+          "text": "\n左键点击，可消耗600点经验值将核心§b主副手物品§f的§d附魔§e调换"
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "附魔回归",
+        "color": "#805100",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 12"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "无需基座，请保证自身拥有超过300点经验值，且核心主手拥有书"
+        },
+        {
+          "text": "\n左键点击，可消耗300点经验值\n将核心§b副手物品§f的§d附魔§e回收到§b主手§f的§c普通书§f之中\n若§c仅持有书§f，则将制作§8空附魔§f的§e附魔书"
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "抗火处理",
+        "color": "#D40000",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 13"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "无需基座，请保证自身拥有超过100点经验值"
+        },
+        {
+          "text": "\n左键点击，可消耗100点经验值\n将核心§b主手物品§f设置为§e“该物品无法被火焰破坏”"
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "修补重置",
+        "color": "#7D7D7D",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 14"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "\n需要基座，请在基座中填充以下材料："
+        },
+        {
+          "text": "\n  §n┃§4§l§nX§f§l§n|O|§4§l§nX§f§l§n┃",
+          "bold": true
+        },
+        {
+          "text": "\n  §n┃O|E|O┃",
+          "bold": true
+        },
+        {
+          "text": "\n  ┃§4§lX§f§l|O|§4§lX§F§l┃",
+          "bold": true
+        },
+        {
+          "text": "\nO：恶魂之泪"
+        },
+        {
+          "text": "\nE：附魔之瓶"
+        },
+        {
+          "text": "\n左键点击，可消耗以上材料，并丢失§61000点§f经验\n将核心§b主手物品§f的§7修补所需经验等级§f设置为§e0"
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "无限耐久",
+        "color": "#22238C",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 15"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "需要基座，请在基座中填充以下材料："
+        },
+        {
+          "text": "\n  §n┃N|O|N┃",
+          "bold": true
+        },
+        {
+          "text": "\n  §n┃O|S|O┃",
+          "bold": true
+        },
+        {
+          "text": "\n  ┃N|O|N┃",
+          "bold": true
+        },
+        {
+          "text": "\nN：下界合金锭",
+          "bold": false
+        },
+        {
+          "text": "\nO：星源石"
+        },
+        {
+          "text": "\nS：下界之星"
+        },
+        {
+          "text": "\n左键点击，可消耗以上材料\n将核心§b主手物品§f设置为§e“该物品无法损坏”"
+        }
+      ]
+    },
+    {
+      "label": {
+        "text": "药水凝和",
+        "color": "#00C3EB",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "say 1"
+      },
+      "width": 120,
+      "tooltip": [
+        {
+          "text": "无需基座，请保证自身拥有超过150点经验值，\n并且确保§b主副手§3药水§6拥有效果"
+        },
+        {
+          "text": "\n左键点击，可消耗150点经验值\n将核心§b主副手§3药水§f的§6效果类型§e叠加§c(时间与强度不叠加)"
+        }
+      ]
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "supreme_boy_creations:main"
+    }
+  },
+  "after_action": "none"
+}

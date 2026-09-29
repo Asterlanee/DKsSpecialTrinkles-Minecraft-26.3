@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_data": {
+          "special_trinkles": "starish_originium_shop",
+          "starish_originium_category": "guidebook",
+          "itemID": "starish_originium_shop_interface",
+          "interfaceID": "Sell",
+          "Style": 5
+        },
+        "minecraft:lore": [
+          {
+            "text": "§8-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-"
+          },
+          {
+            "text": "§f专门进行星源石线上交易"
+          },
+          {
+            "text": "§f的平台"
+          },
+          {
+            "text": "§f转账，购买，充值，提现，"
+          },
+          {
+            "text": "§f多种功能等你发现"
+          },
+          {
+            "text": "§f祝你有个美好的一天(●>◡<●) "
+          },
+          {
+            "text": "§8-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-"
+          },
+          {
+            "text": "§e当前页面： §9服务区"
+          },
+          {
+            "text": "§eVer 1.0"
+          }
+        ],
+        "minecraft:written_book_content": {
+          "author": "§e§l晴空无痕",
+          "title": "§9星源石商店线上购物终端",
+          "generation": 0,
+          "pages": [
+            [
+              "",
+              {
+                "text": "§8§l=======§9§l星源石服务§8§l=======",
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "使用部分功能时，请放置在讲台上。"
+                  }
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "     |奖券兑换服务|",
+                "color": "#4D13FF",
+                "bold": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "自动搜索使用者身上的商城兑换券，并使用主手手持的那张。"
+                  }
+                },
+                "click_event": {
+                  "action": "run_command",
+                  "command": "/function starish_originium_shop:exchange/exchange_tickets"
+                }
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "     §8§l|§2§l返回终端主页面§8§l|",
+                "click_event": {
+                  "action": "run_command",
+                  "command": "trigger StarOriShopTrigger set 2001"
+                }
+              }
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

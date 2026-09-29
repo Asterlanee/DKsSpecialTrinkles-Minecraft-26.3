@@ -1,0 +1,115 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "购买商品",
+    "color": "dark_red",
+    "bold": true
+  },
+  "columns": 1,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:bundle",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "在此界面中可以使用星源石购买商品",
+            "bold": true
+          }
+        ],
+        "width": 170
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "紫水晶簇",
+        "color": "#b300ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 1"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/64个"
+      }
+    },
+    {
+      "label": {
+        "text": "紫水晶母岩",
+        "color": "#b300ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 2"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/64个"
+      }
+    },
+    {
+      "label": {
+        "text": "大型紫晶芽",
+        "color": "#b300ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 3"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/64个"
+      }
+    },
+    {
+      "label": {
+        "text": "中型紫晶芽",
+        "color": "#b300ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 4"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/64个"
+      }
+    },
+    {
+      "label": {
+        "text": "小型紫晶芽",
+        "color": "#b300ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set 5"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "售价：1¤/64个"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "starish_originium_shop:buy/main"
+    }
+  },
+  "after_action": "none"
+}

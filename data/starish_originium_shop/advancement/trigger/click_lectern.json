@@ -1,0 +1,121 @@
+{
+  "criteria": {
+    "book_gained": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sneaking": true
+                }
+              }
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:lectern",
+                      "nbt": {
+                        "Book": {
+                          "id": "minecraft:written_book",
+                          "components": {
+                            "minecraft:custom_data": {
+                              "special_trinkles": "starish_originium_shop",
+                              "starish_originium_category": "guidebook",
+                              "itemID": "starish_originium_shop_interface"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:lectern",
+                      "nbt": {
+                        "Book": {
+                          "id": "minecraft:written_book",
+                          "components": {
+                            "minecraft:custom_data": {
+                              "special_trinkles": "starish_originium_shop",
+                              "starish_originium_category": "guidebook",
+                              "itemID": "starish_originium_shop_interface"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:lectern",
+                      "nbt": {
+                        "Book": {
+                          "id": "minecraft:written_book",
+                          "components": {
+                            "minecraft:custom_data": {
+                              "special_trinkles": "starish_originium_shop",
+                              "starish_originium_category": "guidebook",
+                              "itemID": "starish_originium_shop_interface"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:lectern",
+                      "nbt": {
+                        "Book": {
+                          "id": "minecraft:written_book",
+                          "components": {
+                            "minecraft:custom_data": {
+                              "special_trinkles": "starish_originium_shop",
+                              "starish_originium_category": "guidebook",
+                              "itemID": "starish_originium_shop_interface"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "book_gained"
+    ]
+  ],
+  "rewards": {
+    "function": "starish_originium_shop:interaction"
+  },
+  "sends_telemetry_event": true
+}

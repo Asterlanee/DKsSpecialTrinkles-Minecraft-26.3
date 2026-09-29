@@ -1,0 +1,60 @@
+{
+  "criteria": {
+    "base_gained": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "supreme_boy_creations:crafting_equipment_base"
+      }
+    },
+    "core_gained": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "supreme_boy_creations:crafting_equipment_core"
+      }
+    },
+    "fuel_gained": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "supreme_boy_creations:crafting_equipment_fuel"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:block/smithing_table_top",
+    "description": {
+      "text": "合成开始！欢迎来到SupremeBoy的世界。",
+      "color": "gold"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:written_book"
+    },
+    "show_toast": true,
+    "frame": "challenge",
+    "title": {
+      "text": "合成之书，我得到了！",
+      "color": "dark_purple",
+      "bold": true
+    }
+  },
+  "requirements": [
+    [
+      "base_gained"
+    ],
+    [
+      "core_gained"
+    ],
+    [
+      "fuel_gained"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "supreme_boy_creations:core_destroyer"
+    ],
+    "experience": 100,
+    "function": "supreme_boy_creations:give_book"
+  },
+  "sends_telemetry_event": true
+}

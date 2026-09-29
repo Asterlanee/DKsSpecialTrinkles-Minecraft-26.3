@@ -1,0 +1,250 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "卖出商品",
+    "color": "dark_green",
+    "bold": true
+  },
+  "columns": 3,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:hopper",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "在此界面中可以将物品卖出，获得星源石",
+            "bold": true
+          }
+        ],
+        "width": 170
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "龙蛋",
+        "color": "#5F218C",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -1"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：1个/12¤"
+      }
+    },
+    {
+      "label": {
+        "text": "下界之星",
+        "color": "#A8A188",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -2"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：1个/2¤"
+      }
+    },
+    {
+      "label": {
+        "text": "鞘翅",
+        "color": "#7A7A7A",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -3"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：1个/2¤"
+      }
+    },
+    {
+      "label": {
+        "text": "金块",
+        "color": "#FABC00",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -4"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：16个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "绿宝石块",
+        "color": "#00CF39",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -5"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：8个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "钻石",
+        "color": "#00F2FF",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -6"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：12个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "红石块",
+        "color": "#DB0000",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -7"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：48个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "煤炭块",
+        "color": "#1F1F1F",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -8"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：32个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "石英块",
+        "color": "#DBDBDB",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -9"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：96个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "稻草块",
+        "color": "#D19226",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -10"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：28个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "青金石块",
+        "color": "#0006A1",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -11"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：24个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "潜影壳",
+        "color": "#7302AB",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -12"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：24个/1¤"
+      }
+    },
+    {
+      "label": {
+        "text": "下界合金锭",
+        "color": "#3D2C25",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -13"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：1个/2¤"
+      }
+    },
+    {
+      "label": {
+        "text": "附魔金苹果",
+        "color": "#C900FF",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger StarOriShopTrigger set -14"
+      },
+      "width": 120,
+      "tooltip": {
+        "text": "卖价：1个/4¤"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "starish_originium_shop:intro"
+    }
+  },
+  "after_action": "none"
+}
