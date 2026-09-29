@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "核心基础操作",
+    "color": "#ffee00",
+    "bold": true
+  },
+  "columns": 2,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:redstone_block",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "不需要核心本身参与，或简单改变核心形态的操作",
+            "bold": true
+          }
+        ],
+        "width": 170
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "物品交换⇌",
+        "color":"#009EFF",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 1"
+      },
+      "width": 120
+    },
+    {
+      "label": {
+        "text": "重新激活⚙",
+        "color":"#ffbf00",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 2"
+      },
+      "width": 120
+    },
+    {
+      "label": {
+        "text": "开始制作✓",
+        "color":"#A15904",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 3"
+      },
+      "width": 120
+    },
+    {
+      "label": {
+        "text": "查看配方⌨",
+        "color":"#c3c3c3",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "supreme_boy_creations:recipes/main"
+      },
+      "width": 120
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "supreme_boy_creations:main"
+    }
+  },
+  "after_action": "none"
+}

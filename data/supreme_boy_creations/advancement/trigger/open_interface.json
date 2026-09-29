@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "base_gained": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": "supreme_boy_creations:core_hitbox_detect",
+        "player": "special_trinkles:state/no_sneak_sprint"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "base_gained"
+    ]
+  ],
+  "rewards": {
+    "function": "supreme_boy_creations:core_functioning/interaction/open_interface"
+  },
+  "sends_telemetry_event": true
+}

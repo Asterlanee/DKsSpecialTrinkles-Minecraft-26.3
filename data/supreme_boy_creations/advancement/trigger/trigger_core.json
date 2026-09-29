@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "core_used": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:blaze_powder"
+        },
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:armor_stand",
+                "equipment": {
+                  "head": {
+                    "items": "minecraft:netherite_block"
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "supremeboy",
+                    "crafter",
+                    "core"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "core_used"
+    ]
+  ],
+  "rewards": {
+    "function": "supreme_boy_creations:core_functioning/interaction/trigger"
+  },
+  "sends_telemetry_event": true
+}

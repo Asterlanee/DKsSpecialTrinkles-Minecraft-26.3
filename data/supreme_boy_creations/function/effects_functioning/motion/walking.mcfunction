@@ -1,0 +1,30 @@
+schedule function supreme_boy_creations:effects_functioning/motion/walking 2t
+execute unless entity @n[predicate=supreme_boy_creations:core_detect,tag=Motion1] run return fail
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1] run rotate @n[predicate=supreme_boy_creations:core_hitbox_detect] facing entity @p eyes
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1] at @s store result entity @s data.Angle[0] float -1 run data get entity @n[predicate=supreme_boy_creations:core_hitbox_detect] Rotation[1]
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1] at @s run data modify entity @s data.Angle[1] set from entity @n[predicate=supreme_boy_creations:core_hitbox_detect] Rotation[0]
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1] run data modify entity @s data.Angle[2] set value 0f
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1] run data modify entity @s Pose.Head set from entity @s data.Angle
+scoreboard players add @e[predicate=supreme_boy_creations:core_detect,tag=Motion1] SupremeBoyMotion 1
+
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=1}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[0f,0f,-4f],RightArm:[0f,0f,4f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=2}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[20f,0f,-4f],RightArm:[-20f,0f,4f],LeftLeg:[5f,0f,0f],RightLeg:[-5f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=3}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[40f,0f,-4f],RightArm:[-40f,0f,4f],LeftLeg:[10f,0f,0f],RightLeg:[-10f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=4}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[60f,0f,-4f],RightArm:[-60f,0f,4f],LeftLeg:[15f,0f,0f],RightLeg:[-15f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=5}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[75f,0f,-4f],RightArm:[-75f,0f,4f],LeftLeg:[20f,0f,0f],RightLeg:[-20f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=6}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[85f,0f,-4f],RightArm:[-85f,0f,4f],LeftLeg:[25f,0f,0f],RightLeg:[-25f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=7}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[75f,0f,-4f],RightArm:[-75f,0f,4f],LeftLeg:[20f,0f,0f],RightLeg:[-20f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=8}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[60f,0f,-4f],RightArm:[-60f,0f,4f],LeftLeg:[15f,0f,0f],RightLeg:[-15f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=9}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[40f,0f,-4f],RightArm:[-40f,0f,4f],LeftLeg:[10f,0f,0f],RightLeg:[-10f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=10}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[20f,0f,-4f],RightArm:[-20f,0f,4f],LeftLeg:[5f,0f,0f],RightLeg:[-5f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=11}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[0f,0f,-4f],RightArm:[0f,0f,4f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=12}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-20f,0f,-4f],RightArm:[20f,0f,4f],LeftLeg:[-5f,0f,0f],RightLeg:[5f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=13}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-40f,0f,-4f],RightArm:[40f,0f,4f],LeftLeg:[-10f,0f,0f],RightLeg:[10f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=14}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-60f,0f,-4f],RightArm:[60f,0f,4f],LeftLeg:[-15f,0f,0f],RightLeg:[15f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=15}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-75f,0f,-4f],RightArm:[75f,0f,4f],LeftLeg:[-20f,0f,0f],RightLeg:[20f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=16}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-85f,0f,-4f],RightArm:[85f,0f,4f],LeftLeg:[-25f,0f,0f],RightLeg:[25f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=17}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-75f,0f,-4f],RightArm:[75f,0f,4f],LeftLeg:[-20f,0f,0f],RightLeg:[20f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=18}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-60f,0f,-4f],RightArm:[60f,0f,4f],LeftLeg:[-15f,0f,0f],RightLeg:[15f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=19}] run return run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-40f,0f,-4f],RightArm:[40f,0f,4f],LeftLeg:[-10f,0f,0f],RightLeg:[10f,0f,0f]}}
+execute as @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=20}] run data merge entity @s {Pose:{Body:[0f,0f,0f],LeftArm:[-20f,0f,0f],RightArm:[20f,0f,4f],LeftLeg:[-5f,0f,0f],RightLeg:[5f,0f,0f]}}
+scoreboard players reset @e[predicate=supreme_boy_creations:core_detect,tag=Motion1,scores={SupremeBoyMotion=20..}] SupremeBoyMotion

@@ -1,0 +1,296 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "合成过程介绍",
+    "color": "#00d5ff",
+    "bold": true
+  },
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:painting",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "下面是基本操作一览：",
+            "bold": true
+          }
+        ],
+        "width": 140
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:crafting_table",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "一、准备合成器部件",
+            "color": "#00b8ff",
+            "bold": true
+          }
+        ],
+        "width": 140
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "1. 制作“",
+          "color": "#ffffff"
+        },
+        {
+          "text": "至尊男孩合成器基座",
+          "color": "red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "”、“",
+          "color": "#ffffff"
+        },
+        {
+          "text": "至尊男孩合成器核心",
+          "color": "red",
+          "bold": true
+        },
+        {
+          "text": "”\n和“",
+          "color": "#ffffff"
+        },
+        {
+          "text": "至尊男孩合成器核心燃料",
+          "color": "#ff6600",
+          "bold": true
+        },
+        {
+          "text": "”。\n2. 三种配方都可以在配方书中查看。首次完成三种部件后，会获得1本操作书。",
+          "color": "#ffffff"
+        }
+      ],
+      "width": 350
+    },
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:blaze_powder",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "二、组装并激活",
+            "color": "#ffb000",
+            "bold": true
+          }
+        ],
+        "width": 140
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "1. 放置",
+          "color": "#ffffff"
+        },
+        {
+          "text": "合成器基座",
+          "color": "red",
+          "bold": true,
+          "italic": false
+        },
+        {
+          "text": "。它本质上是一个投掷器，合成材料需要放入其中。\n2. 将",
+          "color": "#ffffff"
+        },
+        {
+          "text": "合成器核心",
+          "color": "red",
+          "bold": true
+        },
+        {
+          "text": "放置在基座上方。\n3. 手持“",
+          "color": "#ffffff"
+        },
+        {
+          "text": "至尊男孩合成器核心燃料",
+          "color": "#ff6600",
+          "bold": true
+        },
+        {
+          "text": "”，左键点击核心。\n成功后会消耗1个燃料，核心出现激活效果。\n4. 如果核心未激活，制作和其他核心功能都不会执行。",
+          "color": "#ffffff"
+        }
+      ],
+      "width": 350
+    },
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:writable_book",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "三、打开功能界面",
+            "color": "#55dd88",
+            "bold": true
+          }
+        ],
+        "width": 140
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "激活核心后，空手或手持普通物品右键点击核心头部，即可打开“",
+          "color": "#ffffff"
+        },
+        {
+          "text": "核心功能一览",
+          "color": "#ffee00",
+          "bold": true
+        },
+        {
+          "text": "”。\n\n",
+          "color": "#ffffff"
+        },
+        {
+          "text": "核心基础操作",
+          "color": "#ffee00",
+          "bold": true
+        },
+        {
+          "text": "：物品交换、重新激活、开始制作和查看配方。\n",
+          "color": "#ffffff"
+        },
+        {
+          "text": "核心高级操作",
+          "color": "#ff8800",
+          "bold": true
+        },
+        {
+          "text": "：为核心主手物品进行附魔、抗火、修补等处理，\n部分功能需要经验或额外材料。\n",
+          "color": "#ffffff"
+        },
+        {
+          "text": "核心修复操作",
+          "color": "#d70000",
+          "bold": true
+        },
+        {
+          "text": "：操作书丢失或界面异常时，用于恢复操作书。",
+          "color": "#ffffff"
+        }
+      ],
+      "width": 350
+    },
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:dropper",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "四、进行一次合成",
+            "color": "#e080ff",
+            "bold": true
+          }
+        ],
+        "width": 140
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "1. 打开核心功能界面，点击“",
+          "color": "#ffffff"
+        },
+        {
+          "text": "开始制作✓",
+          "color": "#a15904",
+          "bold": true
+        },
+        {
+          "text": "”。\n2. 按配方将材料放入基座内部的投掷器。材料必须放在配方指定的格子中，\n多余或错位的材料会导致制作失败。\n3. 配方检测成功后，材料会被消耗，成品会出现在投掷器第4格；\n配方不匹配时不会完成制作。",
+          "color": "#ffffff"
+        }
+      ],
+      "width": 350
+    },
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:tnt",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "五、拆卸与重新激活",
+            "color": "#ff6666",
+            "bold": true
+          }
+        ],
+        "width": 140
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "需要拆除核心时，将“",
+          "color": "#ffffff"
+        },
+        {
+          "text": "核心移除器",
+          "color": "dark_red",
+          "bold": true
+        },
+        {
+          "text": "”放置在核心3格范围内。\n移除器本身不会消耗，基座、核心和激活状态会以物品形式掉落。\n如果核心失去基座，或交互界面没有响应，先恢复基座，再使用“",
+          "color": "#ffffff"
+        },
+        {
+          "text": "重新激活⚙",
+          "color": "#ffbf00",
+          "bold": true
+        },
+        {
+          "text": "”功能；\n重新激活不会替代燃料激活流程。",
+          "color": "#ffffff"
+        }
+      ],
+      "width": 350
+    }
+  ],
+  "after_action": "close",
+  "yes": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "supreme_boy_creations:main"
+    }
+  },
+  "no": {
+    "label": {
+      "text": "退出界面",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:change_page",
+      "page": 1
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "核心功能一览",
+    "color": "#ffee00",
+    "bold": true
+  },
+  "columns": 1,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:writable_book",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "下面是本模组的核心功能一览，点击按钮即可进入对应功能组界面",
+            "bold": true
+          },
+          {
+            "text": "\n各部分功能各不相同，请仔细阅读每个功能组的说明",
+            "bold": true
+          }
+        ],
+        "width": 300
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "核心基础操作",
+        "color": "#ffee00",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "supreme_boy_creations:functions/primary"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "不需要核心本身参与，或简单改变核心形态的操作",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "核心高级操作",
+        "color": "#ff8800",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "supreme_boy_creations:functions/reforge"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "需要核心本身参与的复杂操作，需要使用其他资源作为代价",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "核心修复操作",
+        "color": "#d70000",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "supreme_boy_creations:functions/recovery"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "操作出现异常时，检修所用的操作\n例如操作书丢失，对话框无响应等",
+        "bold": true
+      }
+    },
+    {
+      "label": {
+        "text": "合成过程介绍",
+        "color": "#00d5ff",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "supreme_boy_creations:demonstrate"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "介绍合成过程的详细步骤和注意事项",
+        "bold": true
+      }
+    }
+  ],
+  "after_action": "none"
+}

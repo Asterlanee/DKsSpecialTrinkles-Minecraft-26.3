@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "core_used": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "supremeboy",
+                    "core",
+                    "hitbox"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "core_used"
+    ]
+  ],
+  "rewards": {
+    "function": "supreme_boy_creations:core_functioning/interaction/get_hit"
+  },
+  "sends_telemetry_event": true
+}

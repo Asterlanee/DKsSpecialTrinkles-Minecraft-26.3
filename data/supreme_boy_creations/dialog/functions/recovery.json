@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "核心修复操作",
+    "color": "#d70000",
+    "bold": true
+  },
+  "columns": 1,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:iron_pickaxe",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "操作出现异常时，检修所用的操作",
+            "bold": true
+          }
+        ],
+        "width": 170
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "额，我的书丢了……",
+        "color": "#009EFF",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger SupremeBoyTrigger set 21"
+      },
+      "width": 200,
+      "tooltip": {
+        "text": "无需基座，请保证核心主手拥有书\n将书转化为“§c§l至尊男孩合成器控制台§r”",
+        "bold": true
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "supreme_boy_creations:main"
+    }
+  },
+  "after_action": "none"
+}

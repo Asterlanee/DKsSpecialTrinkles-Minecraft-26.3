@@ -1,0 +1,3 @@
+#循环函数
+function supreme_boy_creations:effects_functioning/motion/walking
+function supreme_boy_creations:effects_functioning/motion/waving_hand

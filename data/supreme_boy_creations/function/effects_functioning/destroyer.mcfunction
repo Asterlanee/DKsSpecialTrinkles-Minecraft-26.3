@@ -1,0 +1,10 @@
+execute at @e[tag=core,distance=..3] run particle block{block_state: "minecraft:redstone_block"} ~ ~1 ~ 0 0.4 0 1 50
+execute as @a[distance=..8] run playsound block.note_block.pling block @s ~ ~ ~ 2 2
+summon area_effect_cloud ~ ~ ~ {Radius:3,Duration:5,WaitTime:0,custom_particle:{type:"minecraft:block",block_state: {id: "minecraft:redstone_block"}}}
+summon area_effect_cloud ~ ~ ~ {Radius:3,Duration:5,WaitTime:0,custom_particle:{type:"minecraft:block",block_state: {id: "minecraft:redstone_block"}}}
+
+execute at @e[nbt={Tags:["supremeboy","core","destroyer"]},distance=..3] run summon item ~ ~ ~ {Item:{components: {"minecraft:entity_data": {NoGravity: 1b, Silent: 1b, Invulnerable: 1b, Marker: 1b, Invisible: 1b, id: "minecraft:armor_stand", Tags: ["supremeboy", "core", "destroyer"]}, "minecraft:item_name": {color: "dark_red", text: "核心移除器", bold: 1b}, "minecraft:lore": ["§6用于移除核心，将其变为掉落物物形态", "§c自身不消耗"], "minecraft:max_stack_size": 64, "minecraft:rarity": "uncommon", "minecraft:enchantment_glint_override": 1b, "minecraft:custom_data": {itemID: "core_destroyer", special_trinkles: "supreme_boy", supreme_boy_category: "necessity"}}, count: 1, id: "minecraft:armor_stand"},PickupDelay:0,Glowing:true}
+
+execute at @e[nbt={Tags:["supremeboy","core","crafter"]},distance=..3] run summon item ~ ~ ~ {Item:{components: {"minecraft:entity_data": {NoGravity: 1b, Small: 1b, Health: 1b, equipment: {head: {id: "minecraft:netherite_block"}}, Silent: 1b, Invulnerable: 1b, ShowArms: 1b,"NoBasePlate": true, Glowing: 1b, DisabledSlots: 16b, CustomName: "§c§l至尊男孩合成器核心", Invisible: 1b, id: "minecraft:armor_stand", Tags: ["supremeboy", "crafter", "core"], CustomNameVisible: 1b}, "minecraft:item_name": "§c§l至尊男孩合成器核心", "minecraft:lore": ["§8十分重要的部件", "§6用于组成“至尊男孩合成器”"], "minecraft:max_stack_size": 64, "minecraft:rarity": "epic", "minecraft:enchantment_glint_override": 1b}, count: 1, id: "minecraft:armor_stand"},PickupDelay:0,Glowing:true}
+
+kill @e[tag=core,distance=..3]

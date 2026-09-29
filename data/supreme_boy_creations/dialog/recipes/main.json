@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "可合成物品一览",
+    "color": "#2ac300",
+    "bold": true
+  },
+  "columns": 1,
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:crafting_table",
+      "show_tooltip": false,
+      "show_decorations": false,
+      "description": {
+        "contents": [
+          {
+            "text": "下面是配方一览，点击按钮即可进入对应配方介绍界面",
+            "bold": true
+          }
+        ],
+        "width": 200
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "核心基础操作",
+        "color": "#ffee00",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "supreme_boy_creations:functions/primary"
+      },
+      "width": 200
+    },
+    {
+      "label": {
+        "text": "核心高级操作",
+        "color": "#ff8800",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:change_page",
+        "page": 1
+      },
+      "width": 200
+    },
+    {
+      "label": {
+        "text": "核心修复操作",
+        "color": "#d70000",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:change_page",
+        "page": 1
+      },
+      "width": 200
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "text": "返回上级",
+      "bold": true
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "supreme_boy_creations:functions/primary"
+    }
+  }
+}
